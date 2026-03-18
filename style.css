@@ -289,8 +289,8 @@ footer {
 
 .fade-in {
     opacity: 0;
-    transform: translateY(40px);
-    transition: 1s;
+    transform: translateY(80px); /* по-голямо разстояние */
+    transition: 1.2s ease;
 }
 
 .fade-in.show {
