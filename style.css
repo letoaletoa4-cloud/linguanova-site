@@ -286,7 +286,6 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
-/* АНИМАЦИЯ */
 
 .fade-in {
     opacity: 0;
