@@ -286,10 +286,9 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
-}
 .fade-in {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(40px);
     animation: fadeIn 1s ease forwards;
 }
 
@@ -298,18 +297,4 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-/* hover ефект */
-.card:hover,
-.course-card:hover,
-.contact-box:hover {
-    transform: translateY(-10px) scale(1.02);
-    transition: 0.3s;
-}.btn {
-    transition: 0.3s;
-}
-
-.btn:hover {
-    transform: scale(1.1);
 }
