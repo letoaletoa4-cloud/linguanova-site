@@ -286,20 +286,15 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
-.fade-in {
-    opacity: 0;
-    transform: translateY(40px);
-    animation: fadeIn 1s ease forwards;
-}
+/* АНИМАЦИЯ */
 
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 .fade-in {
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
 }
